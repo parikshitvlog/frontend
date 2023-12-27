@@ -1,0 +1,15 @@
+
+<h1>A Fancy Table</h1>
+
+<table id="customers" border="2" [width]="5">
+  <tr>
+    <th>ID</th>
+    <th>Name </th>
+    <th>Username</th>
+  </tr>
+  <tr *ngFor="let user of apiData ">
+    <td>{{user.id    }} </td>
+    <td>{{user.title  }} </td>
+    <td>{{user.author }}</td>
+  </tr>
+</table>

@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "amit",
+      "author": "samrit"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "body": "viru",
+      "postId": 3
+    }
+  ],
+  "surname": [
+    {
+      "id":3,
+      "name":"sagar",
+      "surname":"kapgate"
+    }
+  ]
+  
+
+}
